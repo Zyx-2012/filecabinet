@@ -1,0 +1,10 @@
+{
+  "name": "static-cdn",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run build && node server-dev.js",
+    "build": "node generate-sitemap.js"
+  },
+  "dependencies": {}
+}
