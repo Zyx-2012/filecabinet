@@ -12,7 +12,8 @@ const IGNORE_LIST = [
   'generate-sitemap.js',
   'sitemap.json',
   'encrypted',
-  'README.md'
+  'README.md',
+  'LICENSE-CODE'
 ]
 
 const FILE_TYPES = {

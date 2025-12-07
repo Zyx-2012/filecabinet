@@ -260,7 +260,7 @@
         }
         function hideIndexIfRoot(){
           if((window.currentPath||'')===''){
-            const hiddenNames=['index.html','font-preview.html','README.md']
+            const hiddenNames=['index.html','font-preview.html','README.md','LICENSE-CODE']
             document.querySelectorAll('#tree-view .file .tree-name').forEach(function(el){ if(hiddenNames.includes(el.textContent)){ var a=el.closest('a'); if(a) a.remove(); } })
             document.querySelectorAll('#grid-view .file .grid-name').forEach(function(el){ if(hiddenNames.includes(el.textContent)){ var a=el.closest('a'); if(a) a.remove(); } })
           }
