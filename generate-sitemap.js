@@ -11,7 +11,6 @@ const IGNORE_LIST = [
   'package-lock.json',
   'generate-sitemap.js',
   'sitemap.json',
-  'encrypted',
   'README.md',
   'LICENSE-CODE'
 ]
